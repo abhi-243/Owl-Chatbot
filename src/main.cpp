@@ -4,9 +4,9 @@
 #include <ESP8266HTTPClient.h>
 #include <ArduinoJson.h>
 
-const char* ssid = "DODO-0B60";
-const char* password = "EXCAFAST92";
-const char* api_key = "AIzaSyCEjyR_xrNEsrwH8-cW-ze9C_7t1eiQCfg";
+const char* ssid = "SSID";
+const char* password = "PSK";
+const char* api_key = "API";
 const char* Gemini_Max_Tokens = "1000"; //more the tokens long the answer gets
 String res = "";
 
